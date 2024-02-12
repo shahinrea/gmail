@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.left_side {
+  display: flex;
+  flex-direction: row;
+}
+/* icon section */
+.icon {
+  width: 80px;
+  height: auto;
+  background-color: #eaf1fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon button {
+  border: none;
+  background: transparent;
+}
+
+.btn .bg {
+  border: none;
+  background-color: rgb(171, 222, 237);
+  border-radius: 70px;
+}
+
+.btn1 .hover1:hover {
+  border: none;
+  background-color: rgb(217, 217, 217);
+  border-radius: 70px;
+}
+
+.btn2 .test3:hover {
+  border: none;
+  background-color: rgb(217, 217, 217);
+  border-radius: 70px;
+}
+.icon .manubar img {
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+}
+.icon .mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.icon .mail button img {
+  width: 20px;
+  height: 20px;
+  background: none;
+}
+.mail .btn {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+/* 2nd colum section */
+
+.snoozed-section {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: rgb(244, 241, 241);
+  display: flex;
+  flex-direction: column;
+}
+
+.snoozed-section img {
+  width: 20px;
+  height: 20px;
+  background: none;
+  padding: 10px;
+}
+
+.gmail_logo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+.gmail_logo img {
+  width: 20px;
+  height: 20px;
+  background: none;
+  padding: 10px;
+}
+
+.pen-icon .pen {
+  background-color: #a8d0f7;
+  border-radius: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.pen img {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  align-items: center;
+}
+
+.inbox-icon {
+  background-color: #a8d0f7;
+  border-radius: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.test img {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  align-items: center;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.inbox-icon .right {
+  text-align: right;
+  padding-left: 20px;
+}
+
+.star-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.test4 img {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  align-items: center;
+  background: none;
+  border: none;
+  align-items: center;
+}
+
+.star-icon:hover {
+  background-color: rgba(229, 230, 230, 0.977);
+  border-radius: 70px;
+}
+.snoozed-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.test5 img {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  align-items: center;
+  background: none;
+  border: none;
+  align-items: center;
+}
+
+.snoozed-icon:hover {
+  background-color: rgba(229, 230, 230, 0.977);
+  border-radius: 70px;
+}
+
+.search-icon img {
+  display: flex;
+  flex-direction: row;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  align-items: center;
+  background: none;
+  border: none;
+  align-items: center;
+}
+
+.search-icon {
+  display: flex;
+  flex-direction: row;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  align-items: center;
+  background: none;
+  border: none;
+  align-items: center;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #a8d0f7;
+  border: 2px solid red;
+}
