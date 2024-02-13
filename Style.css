@@ -1,7 +1,8 @@
-* {
+*. {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 .left_side {
   display: flex;
@@ -19,24 +20,29 @@
 .icon button {
   border: none;
   background: transparent;
+  
 }
 
+ 
 .btn .bg {
   border: none;
   background-color: rgb(171, 222, 237);
   border-radius: 70px;
-}
 
+}
+ 
 .btn1 .hover1:hover {
   border: none;
   background-color: rgb(217, 217, 217);
   border-radius: 70px;
-}
 
+}
+ 
 .btn2 .test3:hover {
   border: none;
   background-color: rgb(217, 217, 217);
   border-radius: 70px;
+
 }
 .icon .manubar img {
   width: 20px;
@@ -66,10 +72,13 @@
   width: 100%;
   height: auto;
   margin: 0;
-  background-color: rgb(244, 241, 241);
+  background-color:rgb(244, 241, 241);
   display: flex;
   flex-direction: column;
+  align-items: left: 0;;
+  
 }
+
 
 .snoozed-section img {
   width: 20px;
@@ -78,11 +87,14 @@
   padding: 10px;
 }
 
+
 .gmail_logo {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
   align-items: center;
+  
+  
 }
 .gmail_logo img {
   width: 20px;
@@ -91,14 +103,15 @@
   padding: 10px;
 }
 
-.pen-icon .pen {
-  background-color: #a8d0f7;
-  border-radius: 50px;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
+.pen-icon .pen{
+background-color: #a8d0f7;
+border-radius: 50px;
+align-items: center;
+display: flex;
+flex-direction: row;
+
 }
-.pen img {
+.pen img{
   width: 20px;
   height: 20px;
   padding: 10px;
@@ -114,9 +127,10 @@
   align-content: space-between;
   gap: 10px;
   margin-top: 20px;
+
 }
 
-.test img {
+.test img{
   width: 20px;
   height: 20px;
   padding: 10px;
@@ -128,8 +142,8 @@
 }
 
 .inbox-icon .right {
-  text-align: right;
-  padding-left: 20px;
+  align: right;
+  padding-left:20px;
 }
 
 .star-icon {
@@ -140,7 +154,7 @@
   text-align: center;
 }
 
-.test4 img {
+.test4 img{
   width: 20px;
   height: 20px;
   padding: 10px;
@@ -150,9 +164,12 @@
   align-items: center;
 }
 
+
 .star-icon:hover {
-  background-color: rgba(229, 230, 230, 0.977);
+  
+  background-color:rgba(229, 230, 230, 0.977);
   border-radius: 70px;
+
 }
 .snoozed-icon {
   display: flex;
@@ -162,7 +179,7 @@
   align-items: center;
 }
 
-.test5 img {
+.test5 img{
   width: 20px;
   height: 20px;
   padding: 10px;
@@ -170,14 +187,17 @@
   background: none;
   border: none;
   align-items: center;
+
 }
 
 .snoozed-icon:hover {
-  background-color: rgba(229, 230, 230, 0.977);
+  
+  background-color:rgba(229, 230, 230, 0.977);
   border-radius: 70px;
+
 }
 
-.search-icon img {
+.search-icon img{
   display: flex;
   flex-direction: row;
   width: 20px;
@@ -187,23 +207,42 @@
   background: none;
   border: none;
   align-items: center;
+
+}
+
+.search-icon{
+  display: flex;
+  flex-direction: row;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  align-items: center;
+  background: none;
+  border: none;
+  align-items: center;
+
+}
+
+.middle{
+  width: 80%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background-color: #a8d0f7;
+  border: #eaf1fb;
+  justify-content: space-evenly;
+
+}
+
+.middle img{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .search-icon {
-  display: flex;
-  flex-direction: row;
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  align-items: center;
-  background: none;
-  border: none;
-  align-items: center;
-}
-
-.middle-section {
-  display: flex;
-  flex-direction: row;
-  background-color: #a8d0f7;
-  border: 2px solid red;
+  background-color: red;
+  width: 30px;
+  height: 5px;
 }
